@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar et Footer fixes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    /* Ajout de CSS personnalisé */
+    .navbar-nav .nav-link {
+      font-size: 30px; /* Taille de la police */
+     /* font-weight: bold; /* Gras */
+      color: #ffffff; /* Couleur du texte */
+      padding: 10px 20px; /* Espacement interne */
+      text-shadow: 2px 2px 4px yellow; /* Ombre jaune */
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ffc107; /* Couleur du texte au survol */
+    }
+
+    /* Custom CSS pour le footer */
+    .footer {
+      font-size: 25px; /* Taille de la police */
+      padding: 20px 0; /* Espacement interne du contenu du footer */
+      background-color: #343a40; /* Couleur de fond du footer */
+      color: #ffffff; /* Couleur du texte du footer */
+      text-align: center; /* Centrer le texte */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand ml-auto">
+        <img src="assets/logo.png" alt="Logo" width="90" height="90" class="d-inline-block align-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/login">HR Director</a></li>
+          <li class="nav-item"><a class="nav-link" href="/login2">Training Director </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Votre contenu ici -->
+  </div>
+
+  <footer class="footer fixed-bottom">
+    <div class="container">
+      <span>&copy; 2024 Resolvi. Tous droits réservés.</span>
+    </div>
+    <div class="container">
+      <span> Transformez vos RH en moteur de performance.</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
